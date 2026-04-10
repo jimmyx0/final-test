@@ -1,20 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Final Test - Version 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestPageThree</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #9b59b6; color: white; }
-        h1 { font-size: 3rem; }
-        .version { font-size: 2.5rem; margin-top: 20px; color: #f1c40f; font-weight: bold; }
-        .success { background: rgba(255,255,255,0.2); padding: 20px; border-radius: 10px; margin-top: 30px; }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea, #7642ba);
+            color: white;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
-    <h1>✅ Final Test</h1>
-    <p class="version">Version 4.0 - CONFIRMED!</p>
-    <div class="success">
-        <p>Auto-deployment is working perfectly!</p>
-        <p>Every GitHub push now updates the site automatically!</p>
-    </div>
+    <h1>Welcome to TestPageThree</h1>
+    <p>Created by Jim Boopah</p>
+    <p>This page was pushed directly to GitHub via API.</p>
 </body>
 </html>
